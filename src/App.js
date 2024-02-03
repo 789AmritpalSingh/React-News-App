@@ -8,7 +8,8 @@ import './App.css';
 const App = () => {
   const pageSize = 21
   const country = "in"
-  const apiKey = process.env.REACT_APP_NEWS_API
+  // const apiKey = process.env.REACT_APP_NEWS_API
+  const apiKey = "88ce08d135b94f5da02ccd52f871602e"
  
   const[progress,setProgress] = useState(0)
     return (
